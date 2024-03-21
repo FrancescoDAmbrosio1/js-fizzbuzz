@@ -24,12 +24,10 @@ for(let i = 0; i < 100; i++){
         console.log('FizzBuzz');
     } else if(resto3 === 0){
         console.log('Fizz');
-    } else{
-        if(resto5 === 0){
-            console.log('Buzz');
-        } else{
-            console.log(num);
-        }
+    } else if(resto5 === 0){
+        console.log('Buzz');
+    }else{
+        console.log(num);
     }
 }
 
